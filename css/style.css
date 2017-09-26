@@ -1,0 +1,1315 @@
+    /*
+        Custom CSS made by Eldin
+        UpWork Profile: http://www.upwork.com/o/profiles/users/_~01b83cb69101fed138/;
+        Website: eldin.work;
+        Hotel website: hotel.eldin.work;
+    */
+
+
+    /* ----------- GENERAL CUSTOMIZATIONS ----------- */
+
+    html, body {
+        overflow-x: hidden;
+    }
+
+    body {
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+
+    
+    /* ----------- MOBILE CUSTOMIZATIONS ----------- */
+    
+    @media screen and (max-width: 480px) {
+        .form-booking {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border-color: #4c4c4c !important;
+    }
+
+    @media screen and (max-width: 520px) {
+        .form-control-1, .form-control-2 {
+            width: 100% !important;
+        }
+    }
+
+    @media screen and (max-width: 520px) {
+        .form-control-2 {
+            margin-left: 0 !important;
+        }
+    }
+
+    @media screen and (max-width: 980px) {
+        .sub-font-one, .sub-font-two, .sub-font-three {
+            font-size: 120% !important;
+        }
+    }
+
+    @media screen and (max-width: 520px) {
+        .sub-font-three {
+            padding-top: 0px !important;
+        }
+    }
+
+    @media screen and (max-width: 479px) {
+        .sub-font-three {
+            margin-bottom: -50px !important;
+        }
+    }
+
+    @media screen and (max-width: 770px) {
+
+        .footer-cont h2 {
+            text-align: center !important;
+        }
+
+        .footer-cont p {
+            text-align: center !important;
+        }
+
+        .footer-col-1 {
+            text-align: center !important;
+        }
+
+        .glyphicon-image-small {
+            padding-left: 0px !important;
+        }
+
+        .glyphicon-image-small-1 {
+            padding-left: 0px !important;
+        }
+
+        .glyphicon-image-small-2 {
+            padding-left: 0px !important;
+        }
+
+    }
+
+    @media screen and (max-width: 640px) {
+        .smaller-cols {
+            margin: 0 auto;
+        }
+
+        .smaller-cols-diff {
+            margin-top: 0px !important;
+        }
+
+        .suite-second-column h2 {
+            text-align: center !important;
+        }
+
+        p.text-suite {
+            text-align: center !important;
+        }
+    }
+
+    @media screen and (max-width: 640px) {
+        .dishes-fist-col,
+        .dishes-second-col,
+        .coctail-cont,
+        .our-clients-cont {
+            text-align: center;
+        }
+    }
+
+    @media screen and (max-width: 640px) {
+        .sr-col-right {
+            margin-top: 30px;
+        }
+    }
+
+    @media screen and (max-width: 640px) {
+        #polina {
+            width: 100%;
+            height: auto;
+        }
+    }
+    
+    @media screen and (max-width: 1024px) {
+        .main-text {
+            bottom: 500px !important;
+        }
+    }
+
+    @media screen and (max-width: 550px) {
+        .main-text {
+            bottom: 695px !important;
+        }
+
+        .form-booking {
+            width:100% !important;
+        }
+    }
+
+    @media screen and (max-width: 320px) {
+        .main-text {
+            bottom: 455px !important;
+            font-size: 10px !important;
+        }
+
+        .form-booking {
+            width: 100% !important;
+            margin-bottom: -180px !important;
+            margin-top: 70px !important;
+            height: auto !important;
+            padding-bottom: 10px !important;
+        }
+
+        .accommodation-cont {
+            margin-top: 70px !important;
+        }
+
+        .my-custom-button-form {
+            margin-top: 5px !important;
+            width: 90% !important
+        }
+
+        .form-control-check-in, 
+        .form-control-check-out {
+            width: 45% !important;
+        }
+    }
+
+    @media screen and (max-width: 520px) {
+        .little-box {
+            background-color: #ededed !important;
+            margin-bottom: -9px !important;
+        }
+
+        .little-text {
+            line-height: 1px !important;
+            margin-left: -33px !important;
+            margin-top: 0 !important;
+        }
+    }
+
+
+    @media screen and (max-width: 320px) {
+        .video-background-row {
+            display:none !important;
+        }
+
+        .guest-icons-cont {
+            padding-top: 0px !important;
+        }
+
+        .accommodation-col-3 {
+            padding-bottom: 0px !important;
+        }
+
+        .guest-icons-cont {
+            padding-top: 20px !important;
+        }
+    }
+
+    @media screen and (max-width: 550px) {
+        .video-background-row {
+            display:none !important;
+        }
+
+        .guest-icons-cont {
+            padding-top: 0px !important;
+        }
+
+        .accommodation-col-3 {
+            padding-bottom: 0px !important;
+        }
+
+        .guest-icons-cont {
+            padding-top: 20px !important;
+        }
+    }
+
+    @media screen and (max-width: 750px) {
+        .video-background-row {
+            display:none !important;
+        }
+
+        .guest-icons-cont {
+            padding-top: 0px !important;
+        }
+
+        .accommodation-col-3 {
+            padding-bottom: 0px !important;
+        }
+
+        .guest-icons-cont {
+            padding-top: 20px !important;
+        }
+    }
+
+    /* ====================================== HOME ====================================== */
+
+
+    /* ----------- MENU and LOGO CUSTOMIZATIONS ----------- */
+
+
+    .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+        color: white;
+        background-color: #c7a252;
+    }
+
+    .navbar-default {
+        background-color: #1d1d1d;
+        border-color: #ffffff;
+    }
+
+    .navbar-default .navbar-nav>li>a {
+        color:white;
+        /* border-left: 1px solid #c7a252; */
+    }
+
+    li+li::before {
+        content: '';
+        border-left: 1px solid #c7a252;
+        position: absolute;
+        height: 50%;
+        left: 0;
+        top: 25%;
+    }
+
+    li.icons::before {
+        display: none;
+    }
+
+
+    .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+        color: #fff;
+        background-color: #c7a252;
+    }
+
+    .navbar-brand {
+        padding: 5px 10px 5px 10px;
+    }
+
+    .navbar-fixed-top {
+        border-width:0 0 0px;
+    }
+
+    li.icons:hover {
+        background-color: none;
+    }
+
+    .navbar-default .navbar-nav>li.icons>a {
+        border: none;
+        background-color: transparent;
+    }
+
+    .navbar-default .navbar-nav>li.icons>a:hover,
+    .navbar-default .navbar-nav>li.icons>a:focus,
+    .navbar-default .navbar-nav>li.icons>a:visited,
+    .navbar-default .navbar-nav>li.icons>a:active {
+        background-color: none;
+    }
+
+
+    /* ----------- CAROUSEL ----------- */
+
+
+    .carousel-caption {
+        right: 0px;
+        left: 0px;
+        padding-bottom: 60px;
+        display:none;
+    }
+
+    .carousel-indicators li {
+        display: none;  
+    }
+    
+    /* ----------- HEADER IMAGE WITH THE FORM ----------- */
+
+
+    .sub-font-one, .sub-font-two, .sub-font-three {
+        color:white;
+        text-align: center;
+        padding-top: 150px;
+
+    }
+
+    .sub-font-one {
+        font-size: 28px;
+        padding-top: 270px;
+    }
+
+    .sub-font-two {
+        font-size: 60px;
+        padding-top: 0px;
+    }
+
+    .sub-font-three {
+        font-size: 40px;
+        padding-top: 50px;
+    }
+
+    .form-booking {
+        width: 660px;
+        height: 80px;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.51);
+        margin: 0 auto;
+        margin-top: 18px;
+        padding-top: 25px;
+        margin-bottom: -80px;
+    }
+
+    .form-control-check-in {
+        width: 30%;
+        height: 35px;
+        border: none;
+        color:black;
+    }
+    
+    .form-control-check-in::-webkit-input-placeholder {
+        color: transparent;
+        text-indent: -9999px;
+        background-image: url("http://hotel.eldin.work/img/check-in.png");
+        background-position: 100% 0;
+        background-repeat: no-repeat; 
+    }
+
+    .form-control-check-out::-webkit-input-placeholder {
+        color: transparent;
+        text-indent: -9999px;
+        background-image: url("http://hotel.eldin.work/img/check-out.png");
+        background-position: 100% 0;
+        background-repeat: no-repeat; 
+    }
+
+
+    .form-control-check-out {
+        width: 30%;
+        height: 35px;
+        border: none;
+        color:black;
+    }
+
+    .my-custom-button-form {
+        background-color: #c7a252;
+        border-radius: 0px;
+        border: 1px solid #c7a252;
+        width: 30%;
+        color:white;
+        margin-bottom: 4px;
+    }
+
+    /* ----------- ACCOMMODATION WITH THREE COLUMNS ----------- */
+
+    .accommodation-headline {
+        font-size: 30px;
+        text-align: center;
+        padding-top: 60px;
+    }
+
+    .glyphicon-image {
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    .accommodation-col-1, .accommodation-col-2, .accommodation-col-3 {
+        text-align: center;
+        padding-bottom: 85px;
+    }
+
+
+    /* ----------- VIDEO BACKGROUND ----------- */
+    
+    .video-background-row {
+        background: rgba(255, 255, 255, 0.18);
+        background-size: cover;
+        height: 450px;
+    }
+    
+
+    .video-background-cont {
+        text-align: center;
+        color:white;
+        padding-top: 50px;
+    }
+
+    .video-background-cont p {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+
+    /* ----------- GUEST ICONS ----------- */
+
+    .guest-icons-cont {
+        padding-top: 80px;
+        text-align: center;
+    }
+
+
+    /* ----------- GALLERY ----------- */
+
+    .gallery-custom-row {
+        padding-bottom: 100px;
+    }
+
+    .gallery-custom-cont {
+        padding-top: 60px;
+    }
+
+    .gallery-custom-cont-b {
+        padding-top: 30px;
+    }
+
+    .gallery-headline {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #lightbox .modal-content {
+        display: inline-block;
+        text-align: center;   
+    }
+
+    #lightbox .close {
+        opacity: 1;
+        color: rgb(255, 255, 255);
+        background-color: rgb(25, 25, 25);
+        padding: 5px 8px;
+        border-radius: 30px;
+        border: 2px solid rgb(255, 255, 255);
+        position: absolute;
+        top: -15px;
+        right: -55px;
+        z-index:1032;
+    }
+
+    .g-images a:hover,
+    .g-images a:focus {
+        color: #333;
+        text-decoration: underline;
+        opacity: 0.5;
+        filter: alpha(opacity=50);
+    }
+
+
+    /* ----------- FOOTER ----------- */
+
+    .footer-row {
+        background-color: #1d1d1d;
+    }
+
+    .footer-cont {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        color:white;
+    }
+
+    .footer-cont h2 {
+        text-align: left;
+    }
+
+    .footer-cont p {
+        text-align: left;
+    }
+
+    .footer-col-1 img {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .footer-col-1 p {
+        padding-bottom: 20px;
+    }
+
+    .glyphicon-image-small {
+        padding-left: 40px;
+    }
+
+    .glyphicon-image-small-1 {
+        padding-left: 50px;
+    }
+
+    .glyphicon-image-small-2 {
+        padding-left: 70px;
+    }
+
+    .form-control {
+        border-radius: 0px;
+    }
+
+    .my-custom-button {
+        background-color: #c7a252;
+        border-radius: 0px;
+        border: 1px solid #c7a252;
+        width: 44%;
+    }
+
+    .social-icons-custom {
+        letter-spacing: 5px;
+    }
+
+    .booking-advisor {
+        letter-spacing: 5px;
+        padding-top: 40px;
+    }
+
+    .custom-footer-bottom {
+        color:white;
+        text-align: center;
+        font-size: 16px;
+        padding-bottom: 55px;
+    }
+
+
+    /* ====================================== ABOUT US ====================================== */
+
+    
+    /* ----------- HEADER IMAGE WITH TEXT CENTERED ----------- */
+
+    .header-custom-image-row {
+        background: url('http://hotel.eldin.work/img/Background-general.png');
+        background-size: cover;
+        height: 240px;  
+    }
+    
+    .header-custom-image-cont {
+        padding-top: 100px;
+    }
+
+    .subtitle-general-custom {
+        font-size: 27px;
+        text-align: center;
+        color:white;
+        margin-bottom: -10px;
+    }
+
+    .title-general-custom {
+        font-size: 40px;
+        text-align:center;
+        color: white;
+    }
+
+
+    /* ----------- ABOUT US PAGE STYLE ----------- */
+
+
+    .about-type-left h2 {
+        font-weight: bold;
+        padding-bottom: 20px;
+    }
+
+    .about-type-left img {
+        padding-bottom: 10px;
+    }
+
+    .first-parag-about-type {
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .second-parag-about-type {
+        font-size: 16px;
+    }
+
+    .about-type-right img {
+        margin-top: 10px;
+        border: 10px solid #ededed;
+    }
+
+    .about-type-center {
+        margin-top: 60px;
+        font-size: 14px;
+        background-color: #e1e1e1;
+        border-left: 10px solid #c7a252;
+        padding: 20px;
+        margin-bottom: 40px;
+    }
+
+    
+    /* ----------- OUR CLIENTS ----------- */
+
+    .our-clients-headline {
+        font-size: 30px;
+        text-align: center;
+        padding-top: 60px;  
+    }
+    
+    .our-clients-row {
+        margin-bottom: 100px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+
+    /* ====================================== KONTAKT ====================================== */
+
+    /* ----------- GET IN TOUCH ----------- */
+
+    .get-in-touch-cont {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .get-in-touch-left h2 {
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .get-in-touch-right h2 {
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .img-aligned-center {
+        text-align: center;
+    }
+
+    .get-in-touch-1 {
+        font-size: 18px;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .get-in-touch-2 {
+        font-size: 18px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+
+    .get-in-touch-3 {
+        font-size: 18px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+
+    .get-in-touch-4 {
+        font-size: 18px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+
+    .get-in-touch-inline {
+        margin-top: 20px;
+    }
+
+    .form-control-1 {
+        width: 49%;
+        margin-bottom: 30px;
+        margin-right: 5px;
+    }
+
+    .form-control-2 {
+        width: 49%;
+        margin-bottom: 30px;
+        margin-left: 5px;
+    }
+
+    .form-control-3 {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .form-control-4 {
+        width: 100%;
+        height: 150px;
+    }
+
+    #pwd-4 {
+        padding-bottom: 120px;
+    }
+
+    .my-custom-button-contact {
+        background-color: #c7a252;
+        border-radius: 0px;
+        border: 1px solid #c7a252;
+        color:white;
+        width: 100%;
+        margin-top: 30px;
+        background-color: 
+    }
+
+    #map {
+        height: 350px;
+        width: 100%;
+     }
+
+    /* ----------- INTERACTIVE MAP ----------- */
+
+    .inter-map-row {
+        background: url('http://hotel.eldin.work/img/InterMap.png');
+        background-size: cover;
+        height: 320px;
+    }
+
+
+
+    /* ====================================== EVENTS ====================================== */
+
+
+    /* ----------- EVENTS NEWS ----------- */
+
+    .events-body {
+        background-color: #ededed;
+    }
+
+    .events-cont {
+        margin-top: 100px;
+    }
+
+    p.second-img-events {
+        margin-top: 100px;
+    }
+
+    p.sub-title-events {
+        padding-top: 20px;
+        color: #a1a1a1;
+        padding-bottom: 15px;
+    }
+
+    p.tag-events {
+        color: #c7a252;
+    }
+
+    .my-custom-button-events {
+        background-color: #c7a252;
+        border-radius: 0px;
+        border: 1px solid #c7a252;
+        width: 150px;
+        color: white;
+    }
+
+    .custom-separator-events {
+        margin-bottom: 100px;
+    }
+
+
+    /* ====================================== RESTAURANT ====================================== */
+
+
+    /* ----------- RESTAURANT FIRST 2 COLUMNS ----------- */
+
+    .rest-first-columns-cont {
+        text-align: center;
+        margin-top: 80px;
+        margin-bottom: 70px;
+    }
+
+    .rest-parag-text {
+        font-size: 14px;
+        color: #a1a1a1;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        line-height:2;
+    }
+
+    .rest-button-custom {
+        background-color: #c7a252;
+        border-radius: 0px;
+        border: 1px solid #c7a252;
+        color: white;
+        width: 150px;
+        margin-bottom: 30px;
+    }
+
+    .rest-first-column h2 {
+        font-weight: bold;
+    }
+
+
+    /* ----------- SPECIALITIES ----------- */
+
+    .rest-speciality-row {
+        background: url('http://hotel.eldin.work/img/Spec-Bg-Image.png');
+        background-size: cover;
+        height: auto;
+    }
+
+    .rest-speciality-cont {
+        margin-top: 40px;
+    }
+
+    .rest-speciality-cont h2 {
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .spec-column-one, .spec-column-two, .spec-column-three, .spec-column-four {
+        margin-top: 50px;
+    }
+
+    .caption h4 {
+        font-weight: bold;
+    }
+
+    span.spec-price {
+        float: right;
+        color: #c7a252;
+    }
+
+    .caption p {
+        color:#a1a1a1;
+    }
+
+
+    /* ----------- DISHES ----------- */
+
+    .dishes-cont {
+        margin-top: 60px;
+        margin-bottom: 100px;
+    }
+
+    .dishes-cont h2 {
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .dishes-cont h3 {
+        font-weight: bold;
+    }
+
+    .col-two-para {
+        color: #a1a1a1;
+    }
+
+    .col-two-price {
+        font-size: 20px;
+        color: #c7a252;
+    }
+
+    .root-dishes {
+        margin-bottom: 20px;
+    }
+
+
+    /* ----------- OUR LOBBY BAR ----------- */
+
+    .lobby-bar-left, .lobby-bar-right {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .lobby-bar-left {
+        background-color: #ededed;
+        text-align: center;
+        padding: 20px 50px 72px 50px
+    }
+
+    .lobby-bar-left h2 {
+        font-weight: bold;
+    }
+
+    .custom-lobby-text {
+        color: #a1a1a1;
+        line-height: 3;
+    }
+
+
+    /* ----------- COCTAILS ----------- */
+
+    .coctail-cont {
+        margin-top: 60px;
+    }
+
+    .coctail-cont h2 {
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .coctail-one, .coctail-two, .coctail-three, .coctail-four {
+        margin-top: 60px;
+        margin-bottom: 70px;
+    }
+
+
+
+    /* ----------- DRINKS ----------- */
+
+    .drinks-row {
+        background-color: #ededed;
+    }
+
+    .drinks-cont {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .drinks-cont h2 {
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .drinks-cont h3 {
+        font-weight: bold;
+    }
+
+    span.drinks-price {
+        float: right;
+        color: #c7a252;
+        font-size: 20px;
+    }
+
+    p.drinks-text {
+        font-size: 14px;
+        color: #a1a1a1;
+        padding-bottom: 60px;
+    }
+
+
+    /* ====================================== ROOMS ====================================== */
+
+    /* ----------- EIGHT ROOMS ----------- */
+
+    .rooms-body {
+        background-color: #ededed;
+    }
+
+    .eight-rooms-cont {
+        margin-top: 50px;
+        margin-bottom: 80px;
+    }
+
+    .thumbnail {
+        border:none;
+    }
+
+    .caption h6 {
+        color: #c7a252;
+    }
+
+
+    .spec-price-rooms {
+        float: right;
+        background-color: #c7a252;
+        color: white;
+        font-size: 14px;
+        font-weight: normal;
+        text-align: center;
+        width: 50px;
+        height: 30px;
+        padding-top: 7px;   
+    }
+    
+
+    /* ====================================== SPA ====================================== */
+
+    /* ----------- SPA FIRST ROW ----------- */
+
+    .spa-first-row {
+        background-color: #f4f4f4;
+    }
+
+    .spa-first-right, .spa-first-left {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .spa-first-right h2 {
+        font-size: bold;
+        text-align: center;
+    }
+
+    .spa-first-right {
+        padding: 50px;
+    }
+
+    p.text-spa-row-second {
+        padding-top: 20px;
+        color: #a1a1a1;
+    }
+
+    p.text-spa-row-third {
+        padding-top: 20px;
+        color: #a1a1a1;
+    }
+
+
+    /* ----------- SPA SERVICES ----------- */
+
+    .spa-services-cont {
+        margin-top: 60px;
+        margin-bottom: 65px;
+    }
+
+    .spa-services-cont h2 {
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .sub-text-spa-services {
+        text-align: center;
+        color: #848383;
+        font-size: 14px;
+        padding-top: 20px;
+    }
+    
+    .spa-services-cont h3 {
+        text-align: center;
+        font-weight: bold;
+    }
+
+    p.spa-services-p {
+        text-align: center;
+    }
+
+
+    /* ----------- SPA BG Custom ----------- */
+
+    .spa-bottom-bg-row {
+        background: url('http://hotel.eldin.work/img/bg-spa.png');
+        background-size: cover;
+        height: auto;
+    }
+
+    .spa-bottom-col-one h2 {
+        padding-top: 120px;
+        padding-bottom: 20px;
+    }
+
+    span.boldie {
+        font-weight: bold;
+    }
+
+    p.spa-bottom-para-one {
+        padding-bottom: 20px;
+    }
+
+    p.spa-bottom-para-two {
+        padding-bottom: 20px;
+    }
+
+    .spa-bottom-col-two {
+        padding-top: 60px;
+    }
+
+
+    /* ====================================== SINGLE ROOM ====================================== */
+
+    /* ----------- Single room area ----------- */
+
+    .single-room-body {
+        background-color: #ededed;
+    }
+
+    .sr-area-cont {
+        padding-top: 45px;
+        padding-bottom: 120px;
+    }
+
+    .sr-col-right {
+        padding-left: 30px;
+    }
+
+    p.sr-second-img {
+        text-align: center;
+        margin-top: -40px;
+    }
+
+    .sr-area-cont h2 {
+        padding-top: 50px;
+    }
+
+    p.sr-area-para, p.sr-area-para-two {
+        color: #6a6a6a;
+    }
+
+    .sr-col-right h3 {
+        margin-top: -10px;
+        margin-bottom: 20px;
+    }
+
+    .sr-col-right .rest-button-custom {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    h3.sr-other-rooms {
+        padding-top: 30px;
+    }
+
+    .sr-col-right img {
+        padding-bottom: 5px;
+    }
+
+    .new {
+        padding-bottom: 0px;
+        margin-bottom: -20px;
+    }
+
+    /* ====================================== SUITE ====================================== */
+
+    /* ----------- Suite ----------- */
+
+    .suite-body {
+        background-color: #ededed;
+    }
+
+    .smaller-cols {
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 24%;
+    }
+
+    .smaller-cols-diff {
+        margin-top: -40px;
+        text-align: center;
+    }
+
+    .checks-suite {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .col-suite-first {
+        margin-top: 60px;
+        margin-bottom: 40px;
+        background-color: white;
+        padding-left: 0px;
+    }
+
+    .suite-first-column {
+        padding-left: 0px;
+    }
+
+    .col-suite-second {
+        background-color: white;
+        padding-left: 0px;
+        margin-bottom: 60px;
+    }
+
+    p.text-suite {
+        color: #a1a1a1;
+        padding-top: 25px;
+        padding-bottom: 40px;
+    }
+
+    .suite-second-column {
+        padding-bottom: 0px;
+        padding-left: 0px;
+    }
+
+    .glyphicon-star {
+        color: #c7a252;
+        text-align: center;
+    }
+
+    p.price-suite {
+        font-size: x-large;
+        color: #c7a252;
+    }
+
+    p.price-text {
+        font-size: xx-small;
+        margin-top: -10px;
+        text-align: center;
+    }
+
+    .suite-button {
+        background-color: #c7a252;
+        border-radius: 0px;
+        border: 1px solid #c7a252;
+        color: white;
+        text-align: center;
+        height: 20px;
+        padding-top: 0px;
+    }
+
+
+    /*=============== EXTRA CSS =====================*/
+
+    iframe {
+        border: 0px;
+    }
+
+    /*====================================*/
+
+    .main-text {
+        position: absolute;
+        bottom: 110px;
+        width: 80%;
+        color: #FFF;
+        left: 10%;
+    }
+
+    /*====================================*/
+
+    #single-rooms-car {
+    margin: 20px auto;
+    width: 100%;
+    }
+
+    #carousel-custom-rooms {
+        margin: 20px auto;
+        width: 100%;
+    }
+    #carousel-custom-rooms .carousel-indicators {
+        margin: 10px 0 0;
+        overflow: auto;
+        position: static;
+        text-align: left;
+        white-space: nowrap;
+        width: 100%;
+    }
+    #carousel-custom-rooms .carousel-indicators li {
+        background-color: transparent;
+        -webkit-border-radius: 0;
+        border-radius: 0;
+        display: inline-block;
+        height: auto;
+        margin: 0 !important;
+        width: auto;
+    }
+    #carousel-custom-rooms .carousel-indicators li img {
+        display: block;
+        opacity: 0.5;
+    }
+    #carousel-custom-rooms .carousel-indicators li.active img {
+        opacity: 1;
+    }
+    #carousel-custom-rooms.carousel-indicators li:hover img {
+        opacity: 0.75;
+    }
+    #carousel-custom-rooms .carousel-outer {
+        position: relative;
+    }
+
+    .little-box {
+        background-color: #ededed;
+        margin-bottom: 15px;
+    }
+
+    .little-image {
+        padding-left: 0;
+    }
+
+    .little-text {
+        line-height: 1px;
+        margin-left: -40px;
+        margin-top: -5px;
+    }
+
+    .little-text p {
+        font-size: smaller;
+        color: rgba(0, 0, 0, 0.58);
+    }
+
+    .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+        color: #ededed;
+        background-color: #1d1d1d;
+    }
+
+    .navbar-nav>li>.dropdown-menu,
+    .dropdown-menu>li>a {
+        background: #1d1d1d;
+    }
+
+    .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover,
+    .navbar-nav>li>.dropdown-menu:hover {
+        background-color: #c6a151;
+    }
+
+    .dropdown-menu {
+        min-width: 0;
+        border-radius: 0;
+    }

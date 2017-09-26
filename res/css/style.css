@@ -1,0 +1,497 @@
+    /*
+        Custom CSS made by Eldin
+        UpWork Profile: http://www.upwork.com/o/profiles/users/_~01b83cb69101fed138/;
+        Website: eldin.work;
+        Hotel website: hotel.eldin.work/res;
+    */
+
+
+    /* ----------- GENERAL CUSTOMIZATIONS ----------- */
+
+    html, body {
+    overflow-x: hidden;
+    }
+
+    body {
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+
+    /* ----------- MENU and LOGO CUSTOMIZATIONS ----------- */
+
+
+    .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+        color: white;
+        background-color: #ce4631;
+    }
+
+    .navbar-default {
+        background-color: #1d1d1d;
+        border-color: #ffffff;
+    }
+
+    .navbar-default .navbar-nav>li>a {
+        color:white;
+    }
+
+    li+li::before {
+        content: '';
+        border-left: 1px solid #ce4631;
+        position: absolute;
+        height: 50%;
+        left: 0;
+        top: 25%;
+    }
+
+    li.icons::before {
+        display: none;
+    }
+
+    .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+        color: #fff;
+        background-color: #ce4631;
+    }
+
+    .navbar-brand {
+        padding: 5px 10px 5px 10px;
+    }
+
+    .navbar-fixed-top {
+        border-width:0 0 0px;
+    }
+
+    li.icons:hover {
+        background-color: none;
+    }
+
+    .navbar-default .navbar-nav>li.icons>a {
+        border: none;
+        background-color: transparent;
+    }
+
+    .navbar-default .navbar-nav>li.icons>a:hover,
+    .navbar-default .navbar-nav>li.icons>a:focus,
+    .navbar-default .navbar-nav>li.icons>a:visited,
+    .navbar-default .navbar-nav>li.icons>a:active {
+        background-color: none;
+    }
+
+     .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+        color: #ededed;
+        background-color: #1d1d1d;
+    }
+
+    .navbar-nav>li>.dropdown-menu,
+    .dropdown-menu>li>a {
+        background: #1d1d1d;
+    }
+
+    .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover,
+    .navbar-nav>li>.dropdown-menu:hover {
+        background-color: #ce4631;
+    }
+
+    .dropdown-menu {
+        min-width: 0;
+        border-radius: 0;
+    }
+
+    .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover, .navbar-nav>li>.dropdown-menu:hover {
+        background-color: #ce4631;
+    }
+
+    .navbar-default .navbar-nav>li>a {
+        color:black;
+    }
+
+    .navbar-default {
+        background-color: white;
+    }
+
+    .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+        background-color: white;
+    }
+
+    .navbar-nav>li>.dropdown-menu, .dropdown-menu>li>a {
+        background-color: white;
+    }
+
+
+    /* ----------- MAIN HEADER BIG IMAGE ----------- */
+
+    .header-big-image {
+        background: url('http://hotel.eldin.work/res/img/mainresbg.png');
+        height: 600px;
+    }
+
+    p.row-1 {
+        margin-top: 25%;
+        color: white;
+        text-align: center;
+        font-size: x-large;
+    }
+
+    p.row-2 {
+        color: white;
+        text-align: center;
+        font-size: -webkit-xxx-large;
+    }
+
+    p.row-3 {
+        text-align: center;
+    }
+
+    .my-button-header {
+        color: #ffffff;
+        background-color: #ce4631;
+        border-color: #ce4631;
+        border-radius: 0;
+        width: 200px;
+        font-size: larger;
+    }
+
+
+    /* ----------- RESTAURANT HISTORY ----------- */
+
+    .history-rest-cont {
+        padding-top: 60px;
+    }
+
+    .history-left h4 {
+        color:#b2b2b2;
+        padding-bottom: 30px;
+    }
+
+    .history-left p {
+        color:#a2a2a2;
+        padding-top: 30px;
+        line-height: 30px;
+    }
+
+
+    /* ----------- RESTAURANT SERVICES ----------- */
+
+    .restaurant-services-cont {
+        text-align: center;
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+
+    .restaurant-services-cont img {
+        padding-bottom: 25px;
+    }
+
+    .s-one h4, .s-two h4, .s-three h4 {
+        font-weight: bold;
+    }
+
+    .my-button-services {
+        color: #333;
+        background-color: #fff;
+        border-color: #cb3d27;
+        padding: 2px 12px;
+    }
+
+    .my-button-services:hover {
+        color: #fff;
+        background-color: #ce4631;
+        border-color: #ce4631;
+    }
+
+
+    /* ----------- SPECIALITIES ----------- */
+
+     .rest-speciality-row {
+        background: url('http://hotel.eldin.work/img/Spec-Bg-Image.png');
+        background-size: cover;
+        height: auto;
+    }
+
+    .rest-speciality-cont {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .rest-speciality-cont h2 {
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .spec-column-one, .spec-column-two, .spec-column-three, .spec-column-four {
+        margin-top: 50px;
+    }
+
+    .caption h4 {
+        font-weight: bold;
+    }
+
+    span.spec-price {
+        float: right;
+        color: #c7a252;
+    }
+
+    .caption p {
+        color:#a1a1a1;
+    }
+
+    p.img-aligned-center {
+        text-align: center;
+    }
+
+
+    /* ----------- VIDEO BACKGROUND ----------- */
+    
+    .video-background-row {
+        background: rgba(255, 255, 255, 0.18);
+        background-size: cover;
+        height: 450px;
+    }
+    
+
+    .video-background-cont {
+        text-align: center;
+        color:white;
+        padding-top: 50px;
+    }
+
+    .video-background-cont p {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    iframe {
+        border: 0px;
+    }
+
+    /* ----------- GALLERY ----------- */
+
+    .gallery-custom-row {
+        padding-bottom: 100px;
+    }
+
+    .gallery-custom-cont {
+        padding-top: 60px;
+    }
+
+    .gallery-custom-cont-b {
+        padding-top: 30px;
+    }
+
+    .gallery-headline {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #lightbox .modal-content {
+        display: inline-block;
+        text-align: center;   
+    }
+
+    #lightbox .close {
+        opacity: 1;
+        color: rgb(255, 255, 255);
+        background-color: rgb(25, 25, 25);
+        padding: 5px 8px;
+        border-radius: 30px;
+        border: 2px solid rgb(255, 255, 255);
+        position: absolute;
+        top: -15px;
+        right: -55px;
+        z-index:1032;
+    }
+
+    .g-images a:hover,
+    .g-images a:focus {
+        color: #333;
+        text-decoration: underline;
+        opacity: 0.5;
+        filter: alpha(opacity=50);
+    }
+
+    p.glyphicon-image {
+        text-align: center;
+    }
+
+
+     /* ----------- FOOTER ----------- */
+
+     .footer-row {
+        background-color: #1d1d1d;
+    }
+
+    .footer-cont {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        color:white;
+    }
+
+    .footer-cont h2 {
+        text-align: left;
+    }
+
+    .footer-cont p {
+        text-align: left;
+    }
+
+    .footer-col-1 img {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .footer-col-1 p {
+        padding-bottom: 20px;
+    }
+
+    .glyphicon-image-small {
+        padding-left: 40px;
+    }
+
+    .glyphicon-image-small-1 {
+        padding-left: 50px;
+    }
+
+    .glyphicon-image-small-2 {
+        padding-left: 70px;
+    }
+
+    .form-control {
+        border-radius: 0px;
+    }
+
+    .my-custom-button {
+        background-color: #ce4631;
+        border-radius: 0px;
+        border: 1px solid #ce4631;
+        width: 44%;
+    }
+
+    .social-icons-custom {
+        letter-spacing: 5px;
+    }
+
+    .booking-advisor {
+        letter-spacing: 5px;
+        padding-top: 40px;
+    }
+
+    .custom-footer-bottom {
+        color:white;
+        text-align: center;
+        font-size: 16px;
+        padding-bottom: 55px;
+    }
+
+
+    /* ----------- MENYJA HEADER IMAGE ----------- */
+
+
+    .header-custom-image-row {
+        background: url('http://hotel.eldin.work/res/img/Background-general.png');
+        background-size: cover;
+        height: 240px;  
+    }
+    
+    .header-custom-image-cont {
+        padding-top: 100px;
+    }
+
+    .subtitle-general-custom {
+        font-size: 27px;
+        text-align: center;
+        color:white;
+        margin-bottom: -10px;
+    }
+
+    .title-general-custom {
+        font-size: 40px;
+        text-align:center;
+        color: white;
+    }
+
+
+    /* ----------- MENYJA TODAY'S MENU ----------- */
+
+    .new-spec1 img, 
+    .new-spec2 img,
+    .new-spec3 img,
+    .new-spec4 img {
+        border-radius: 50%;
+    }
+
+    .img-spec-div {
+        text-align: center;
+        margin-bottom:-80px;
+    }
+
+    .thub {
+        padding-top: 80px;
+    }
+
+
+     /* ----------- GARDENS MENU DISHES ----------- */
+
+    .dishes-cont {
+        margin-top: 60px;
+        margin-bottom: 100px;
+    }
+
+    .drinks-cont {
+        margin-bottom: 0;
+    }
+
+    .dishes-cont h2 {
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .dishes-cont h3 {
+        font-weight: bold;
+    }
+
+    .col-two-para {
+        color: #a1a1a1;
+    }
+
+    .col-two-price {
+        font-size: 20px;
+        color: #c7a252;
+    }
+
+    .root-dishes {
+        margin-bottom: 20px;
+    }
+
+
+    /* ----------- SPECIALITIES ----------- */
+
+
+    .thb {
+        padding: 0;
+        border:none;
+    }
+
+    .rsr-spec {
+        background: none;
+    }
+
+
+    /* ----------- OTHER FOOD ----------- */
+    
+    .other-food-row {
+        background-color: #ededed;
+    }
+
+    .other-food-cont {
+        padding-top: 40px; 
+        padding-bottom: 60px;
+    }
+
+    .other-food-cont h2 {
+        text-align: center;
+        font-weight: bold;
+    }

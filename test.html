@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Hotel PSD's</title>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<meta charset="UTF-8">
+			<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+			<link href="css/style.css" rel="stylesheet" media="screen">
+			<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+			<link href="http://hotel.eldin.work/fonts/DIN_Medium_Regular.ttf" rel="stylesheet">
+		</head>
+		
+		<style>
+
+			.video-test-row {
+				background-color: transparent;
+				height: 400px;
+				margin-top: 50px;
+			}
+
+			.test {
+			  margin: 0;
+			  background: transparent; 
+			}
+
+			video { 
+			   position: fixed;
+			   top: 30%;
+			   left: 50%;
+			   min-width: 100%;
+			   min-height: 100%;
+			   width: auto;
+			   height: auto;
+			   z-index: -100;
+			   transform: translateX(-50%) translateY(-50%);
+			   background-size: cover;
+			   transition: 1s opacity;
+			}
+			
+			.stopfade { 
+			   opacity: .5;
+			}
+
+			#polina { 
+			  font-weight:100; 
+			  color: white;
+			  padding: 2rem;
+			  margin:2rem;
+			  font-size: 1.2rem;
+			  width: 40%;
+			  margin: 0 auto;
+   			  text-align: center;
+   			  margin-top: 100px;
+   			  background: rgba(255, 255, 255, 0.18);
+			}
+			
+			h1 {
+			  text-transform: uppercase;
+			  margin-top: 0;
+			}
+			
+			#polina button { 
+			  display: block;
+			  width: 20%;
+			  padding: .4rem;
+			  border: none; 
+			  margin: 1rem auto; 
+			  font-size: 1.3rem;
+			  background: rgba(255,255,255,0.23);
+			  color: #fff;
+			  border-radius: 3px; 
+			  cursor: pointer;
+			  transition: .3s background;
+			}
+			
+			#polina button:hover { 
+			   color: #fff;
+   			   background-color: #c7a252;
+			}
+
+			a {
+			  display: inline-block;
+			  color: #fff;
+			  text-decoration: none;
+			  background:rgba(0,0,0,0.5);
+			  padding: .5rem;
+			  transition: .6s background; 
+			}
+			
+			a:hover{
+			  background:rgba(0,0,0,0.9);
+			}
+			
+			@media screen and (max-width: 500px) { 
+			  div{width:70%;} 
+			}
+			
+			@media screen and (max-device-width: 800px) {
+			  html { background:  }
+			  #bgvid { display: none; }
+			}
+
+			@media screen and (min-width: 350px) {
+			 	#polina {
+					width: 100%;
+					height: auto;
+				}
+			}
+
+		</style>
+
+		<body class="test">
+
+				<!-- Central part -->
+
+				<div class="video-test-row row">
+					<video poster="" id="bgvid" playsinline autoplay muted loop>
+					<source src="http://hotel.eldin.work/video/hotel-video.mp4" type="video/webm">
+					<source src="http://hotel.eldin.work/video/hotel-video.mp4" type="video/mp4">
+					</video>
+					<div id="polina">
+					<h1>A TOUR AROUND HOTEL GARDEN</h1>
+					<p>Hotel Garden is a new hotel, and one of the most prestigious hotels <br>
+						located 3km from the center of Prishtina</p>
+					<button>Pause</button>
+					</div>
+				</div>
+
+
+		<script src="http://code.jquery.com/jquery.js"></script>
+	    <script src="js/bootstrap.min.js"></script>
+	    <script src="js/style.js"></script>
+		</body>	
+
+		</html>
